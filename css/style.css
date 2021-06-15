@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Open Sans', sans-serif;  */
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #33417c;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.banner{
+    background-image: url(../images/banner.png);
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.banner h1{
+    
+color: #fff;
+    
+text-transform: uppercase;
+    
+font-size: 60px;
+    
+margin-top: 40px;
+}
+.icon{
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    left: 50%;
+    top: 77%;
+    transform: translate(-50%, 0);
+    animation: updown 1s linear infinite;
+    animation-direction: alternate;
+
+}
+@keyframes updown{
+    0%{
+        top: 77%;
+    }
+    100%{
+        top: 87%;
+
+    }
+}
+.who_we_are{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.heading h1{
+    
+color: #33417c;
+}
+.who_we_are p{
+    
+color: #cdc7c5;
+}
+.heading span{
+
+background-color: #e76128;
+
+width: 0;
+
+height: 3px;
+
+display: inline-block;
+transition: .5s all ease-in-out;
+}
+.who_we_are img{
+    
+}
+.who_we_are p{
+
+     font-family: 'Open Sans', sans-serif;  
+}
+.who_we_are:hover .heading span{
+    width: 50px;
+}
+.what_we_do{
+    background-size: 840px;
+    background-color: #fbfbfb;
+    padding: ;
+    background-image:url(../images/wwr_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    font-family: 'Montserrat', sans-serif;
+}
+.heading_two span{
+    background-color: #e76128;
+    width: 0;
+    height: 3px;
+    display: inline-block;
+    transition: .5s all ease-in-out;
+}
+
+.heading_two h1{
+    color: #33417c;
+    
+}
+.what_we_do:hover .heading_two span{
+    width: 50px;
+}
+.image{
+    position: relative;
+    padding-top: 30px;
+}
+.image::before{
+    position:absolute;
+    content: '';
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,22337a+100&0+0,1+99,1+99 */
+    background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(34,51,122,1) 99%, rgba(34,51,122,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(34,51,122,1) 99%,rgba(34,51,122,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(34,51,122,1) 99%,rgba(34,51,122,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#22337a',GradientType=0 ); /* IE6-9 */
+    width: 100%;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    transition: .5s all ease-in-out;
+}
+.image:hover::before{
+    height: 100%;
+}
+.title{
+
+position: absolute;
+
+text-transform: uppercase;
+
+color: #fff;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+opacity: 0;
+transition: .5s all ease-in-out;
+}
+.title h1{
+
+font-weight: 700;
+
+font-size: 25px;
+}
+.image:hover .title{
+    opacity: 1;
+    top: 60%;
+   
+}
+.errow{
+    
+font-size: 30px;
+    
+position: absolute;
+    
+top: 75%;
+    
+left: 40%;
+    
+color: #fff;
+    
+opacity: 0;
+    
+transition: .5s all ease-in-out;
+}
+.image:hover .errow{
+    opacity: 1;
+    left: 45%;
+}
+.our_attorney{
+    background-image: url(../images/oa_bg.png);
+    font-family: 'Montserrat', sans-serif;
+}
+.heading_three{
+
+}
+.heading_three span{
+    background-color: #e76128;
+    width:0;
+    height: 3px;
+    display: inline-block;
+    transition: .5s all ease-in-out;
+}
+.heading_three h1{
+    
+color: #fff;
+    
+text-transform: uppercase;
+}
+.our_attorney:hover .heading_three span{
+    width: 50px;
+} 
+.our_attorney p{
+    
+color: #a3a0cc;
+ font-family: 'Open Sans', sans-serif;
+}
+.btn-seemore{
+    
+font-weight: 400;
+    
+color: #e76128;
+    
+text-transform: uppercase;
+}
+.image_oa{
+    position: relative;
+}
+.image_oa::before{
+    position:absolute;
+    content: '';
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,22337a+100&0+0,1+99,1+99 */
+    background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(34,51,122,1) 99%, rgba(34,51,122,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(34,51,122,1) 99%,rgba(34,51,122,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(34,51,122,1) 99%,rgba(34,51,122,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#22337a',GradientType=0 ); /* IE6-9 */
+    width: 100%;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    transition: .5s all ease-in-out;
+
+}
+.image_oa:hover::before{
+    height: 100%;
+
+}
+
+.title_oa {
+    position: absolute;
+    color: #fff;
+    top: 90%;
+    text-transform: uppercase;
+    left: 0;
+    transform: translate(10px, -90%);
+    opacity: 0;
+    transition: .5s all ease-in-out;
+}
+.title_oa h1{
+    font-weight: 700;
+    font-size: 25px;
+}
+.image_oa:hover .title_oa {
+    opacity: 1;
+    left: 15%;
+    top: 80%;
+}
+.languages{
+    font-family: 'Montserrat', sans-serif;
+}
+.languages:hover .heading_two span{
+    width: 50px;
+}
+.description h1{
+    color:  #33417c;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.description p{
+    color: #cdc7c5;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-readmore{
+    font-weight: 500;
+    color: #e76128;
+    text-transform: uppercase;
+}
+.contract_us{
+    background-color: #36226f;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.heading_four span{
+    background-color: #e76128;
+    width:0;
+    height: 3px;
+    display: inline-block;
+    transition: .5s all ease-in-out;   
+}
+.heading_four h1{
+    color: #33417c;
+    text-transform: uppercase;
+}
+.contract_us:hover .heading_three span{
+    width: 50px;
+} 
+
+.contract_us form{
+    
+}
+.contract_us form input{
+    
+width: 100%;
+    
+background: transparent;
+    
+border: none;
+    
+border-bottom: 1px solid #cfc8c8;
+    
+margin-bottom: 15px;
+text-transform:capitalize;
+caret-color: #fff;
+
+}
+.contract_us{
+    
+}
+.contract_us form input:focus-visible{
+    outline: none;
+}
+.contract_us form input::placeholder{
+    color: #fff;
+}
+.contract_us form textarea{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #cfc8c8;
+    margin-bottom: 15px;
+    text-transform:capitalize;
+    caret-color: #fff;
+}
+.contract_us form textarea::placeholder{
+    color: #fff;
+}
+.contract_us form textarea:focus-visible{
+    outline: none;
+}
+.contract_us form input[type=submit]{
+
+color: #fff;
+
+border: none;
+
+background-color: #e76128;
+
+padding: 0;
+
+width: 100px;
+
+height: 40px;
+}
+.contract_us:hover form input[type=submit]{
+    background-color: #e64f0f;
+}
+.footer{
+
+background-color: #16102b;
+font-family: 'Montserrat', sans-serif;
+}
+.footer p{color: #fff;
+}
+footer{
+    background-color: #16102b;
+    text-align: center;
+}
+.ftext{
+
+color: #fff;
+}
+.ficon i{
+    color: #fff;
+}
+
+
+
+
+
+
